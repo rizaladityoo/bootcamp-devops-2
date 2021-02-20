@@ -19,7 +19,7 @@ Kubernetes adalah platform open source yang digunakan untuk manajemen container
 -   persamaan : opensource
 -   perbedaan : docker untuk otomatisasi build dan deploy aplikasi (container), kubernetes otomatisasi management container (infrasruktur)
 
- 3. jalankan perintah history di terminal linux ![](images/03.webp)
+ 3. jalankan perintah history di terminal linux ![](images/03.png)
 
  4. karena apabila tidak ada ci/cd proses development aplikasi akan cenderung lebih lambat dan juga kurang praktis ![](images/04.webp)
 
@@ -27,8 +27,8 @@ Kubernetes adalah platform open source yang digunakan untuk manajemen container
  -  ketik di terminal : nano shell.sh
  -  ketik useradd username (enter) apt-get update (enter) apt-get upgrade
  -  tekan ctrl+x dan tekan y dan enter
-    ![](images/05-step-01.webp)
-    ![](images/05-step-02.webp)
+    ![](images/05-step-01.png)
+    ![](images/05-step-02.png)
  6. (mohon maaf tidak bisa embed video di readme.md)
  -  git init
  -  git add .
@@ -36,7 +36,7 @@ Kubernetes adalah platform open source yang digunakan untuk manajemen container
  -  git remote add origin git@github.com:<username>/<namarepo>.git
  -  git push origin <nama branch>
 
- 7. ![](images/07.webp) (sumber https://medium.com/codelabs-unikom/microservices-apaan-tuh-b9f5d56e8848)
+ 7. ![](images/07.png) (sumber https://medium.com/codelabs-unikom/microservices-apaan-tuh-b9f5d56e8848)
 
  8. Komputer yang sudah diinstal heroku cli, sudah login heroku dan sudah mempunyai project wordpress yang akan dideploy, kemudian ikuti langkah-langkah berikut ini :
      -  buat file bernama procfile dan ketik web: vendor/bin/heroku-php-nginx ![](images/08-step1.png)
