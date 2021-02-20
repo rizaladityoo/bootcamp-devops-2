@@ -39,12 +39,12 @@ Kubernetes adalah platform open source yang digunakan untuk manajemen container
  7. ![](images/07.png) (sumber https://medium.com/codelabs-unikom/microservices-apaan-tuh-b9f5d56e8848)
 
  8. Komputer yang sudah diinstal heroku cli, sudah login heroku dan sudah mempunyai project wordpress yang akan dideploy, kemudian ikuti langkah-langkah berikut ini :
-     -  buat file bernama procfile dan ketik web: vendor/bin/heroku-php-nginx ![](images/08-step1.png)
+     -  buat file bernama procfile dan ketik web: vendor/bin/heroku-php-nginx ![](images/08-step-1.png)
      -  buka project wordpress menggunakan git bash dan masukan perintah git init
      -  kemudian masukan perintah git add . ![](images/08-step2-3.png)
-     -  kemudian masukan perintah git commit -m "initial commit" ![](images/08-step4.png)
+     -  kemudian masukan perintah git commit -m "initial commit" ![](images/08-step-4.png)
      -  kemudian masukan perintah heroku create
-     -  kemudian masukan perintah git push heroku master ![](images/08-step5-6.png)
+     -  kemudian masukan perintah git push heroku master ![](images/08-step-5-6.png)
      -  buka, signup, dan buat database baru di https://www.freesqldatabase.com/
-     -  buka url yang sudah dicreate oleh heroku tadi (http://murmuring-sierra-89897.herokuapp.com) ![](images/08-step7-8.png)
+     -  buka url yang sudah dicreate oleh heroku tadi (http://murmuring-sierra-89897.herokuapp.com) ![](images/08-step-7-8.png)
      -  masukkan config database yang telah dibuat di situs https://www.freesqldatabase.com/ ![](images/08-step-9.png)
